@@ -1,6 +1,6 @@
 ## Take Home Assessment: A Simple Message Queue
 
-[![Build Status](https://travis-ci.org/dambrogia/magento-assessment.svg?branch=master)](https://travis-ci.org/dambrogia/magento-assessment)
+[![Build Status](https://travis-ci.com/dambrogia/magento-assessment.svg?branch=master)](https://travis-ci.com/dambrogia/magento-assessment)
 
 Please read the entire readme, there are necessary details throughout the entire document. Thank you.
 
