@@ -14,7 +14,7 @@ Within your consumer, log the sku inside the message to a file named `consumer.l
 _Note: A MySQL queue is fine, AMQP/RMQ isn't necessary since the adapter/connection is abstracted._
 
 
-Remember: 
+Remember:
  - Keep it simple, stupid (KISS)
  - Single Responsibility Principle
 
@@ -25,10 +25,10 @@ When you run `composer install` all of the files you're used to seeing in an M2 
 There is a local docker-compose environment available to you inside the [`.docker`](https://github.com/dambrogia/magento-assessment/tree/master/.docker) directory. There is also a very direct install script at `install.sh`. You are not required to use any of these, but when your code is reviewed this will be the environment it will be tested on. If you have a problem with the local environment, please open an issue on the repo.
 
 ##### A quick tid-bit on docker volumes:
-If you do not run a linux desktop as your local machine, you will receive _much_ better performance using [mutagen](https://github.com/quodlibet/mutagen) to sync your files rather than docker's native volumes. There is a small comment with instructions in [`docker-compose.yml`](https://github.com/dambrogia/magento-2-assessment/blob/master/.docker/docker-compose.yml#L17)
+If you do not run a linux desktop as your local machine, you will receive _much_ better performance using [mutagen](https://github.com/quodlibet/mutagen) to sync your files rather than docker's native volumes. There is a small comment with instructions in [`docker-compose.yml`](https://github.com/dambrogia/magento-assessment/blob/master/.docker/docker-compose.yml#L17)
 
 ##### Getting started:
-You can view the [`.travis.yml`](https://github.com/dambrogia/magento-2-assessment/blob/master/.travis.yml) file to see how to spin up docker.
+You can view the [`.travis.yml`](https://github.com/dambrogia/magento-assessment/blob/master/.travis.yml) file to see how to spin up docker.
 If you are unfamiliar with Travis, basically you need a composer auth.json file for the install, docker-compose (the install instructions there are for an ubuntu 16 travis-ci runner) and then you can boot your docker containers and complete the install of the local environment (xdebug included).
 
 ___
