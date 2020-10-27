@@ -34,7 +34,9 @@ If you are unfamiliar with Travis, basically you need a composer auth.json file 
 ___
 ### How to work on this and submit it?
 
-Clone the repo and create a pull request from a branch named `assessment/<your_name>`.
+Clone the repo (do not fork) and create a branch (`assessment/<your_name>`).
+
+*_Please do not create a PR._* I can delete branches, I can not delete PRs.
 
 Please edit the instructions within the final section of this readme file so I know how to run and test your code. This is similar to the process we have for PRs.
 
