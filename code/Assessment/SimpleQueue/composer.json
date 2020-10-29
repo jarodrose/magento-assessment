@@ -1,0 +1,22 @@
+{
+    "name": "assessment/module-simplequeue",
+    "description": "Simple Queue module used for assesment",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "email": "jarod.rose@gmail.com",
+            "name": "Jarod Rose"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Assessment\\SimpleQueue\\": ""
+        }
+    }
+}
